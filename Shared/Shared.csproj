@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyName>Discord.Shared</AssemblyName>
+        <RootNamespace>Discord.Shared</RootNamespace>
+        <PackageId>Discord.Shared</PackageId>
+        <Authors>Jose Ugal</Authors>
+        <Company>Discord.Shared</Company>
+        <Product>Discord.Shared</Product>
+    </PropertyGroup>
+
+</Project>

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyName>Discord.Contexts</AssemblyName>
+        <RootNamespace>Discord.Contexts</RootNamespace>
+        <PackageId>Discord.Contexts</PackageId>
+        <Authors>Jose Ugal</Authors>
+        <Company>Discord.Contexts</Company>
+        <Product>Discord.Contexts</Product>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Channels" />
+      <Folder Include="Messages" />
+      <Folder Include="Servers" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Shared\Shared.csproj" />
+    </ItemGroup>
+
+</Project>
