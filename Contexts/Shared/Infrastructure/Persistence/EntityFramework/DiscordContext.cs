@@ -1,3 +1,4 @@
+using Discord.Contexts.Messages.Domain;
 using Discord.Contexts.Servers.Domain;
 using Discord.Contexts.Shared.Infrastructure.Persistence.EntityFramework.Configurations;
 using Discord.Contexts.Users.Domain;
@@ -9,6 +10,7 @@ public class DiscordContext : DbContext
 {
     public DbSet<User> Users { get; set; }
     public DbSet<Server> Servers { get; set; }
+    public DbSet<Message> Messages { get; set; }
 
     public DiscordContext(DbContextOptions<DiscordContext> options) : base(options)
     {
@@ -19,5 +21,6 @@ public class DiscordContext : DbContext
     {
         modelBuilder.ApplyConfiguration(new UserConfiguration());
         modelBuilder.ApplyConfiguration(new ServerConfiguration());
+        modelBuilder.ApplyConfiguration(new MessageConfiguration());
     }
 }
