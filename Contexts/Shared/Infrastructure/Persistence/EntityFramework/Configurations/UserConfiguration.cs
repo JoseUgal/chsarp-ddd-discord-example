@@ -27,7 +27,7 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
             .HasConversion(v => v.Value, v => new UserDateOfBirth(v));
         
         builder.Property(x => x.ImageUrl)
-            .HasConversion(v => v == null ? null : v.Value ?? null, v => v == null ? null : new UserImageUrl(v));
+            .HasConversion(v => v == null ? null : v.Value, v => v == null ? null : new UserImageUrl(v));
 
         #endregion
 
