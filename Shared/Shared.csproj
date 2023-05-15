@@ -12,4 +12,9 @@
         <Product>Discord.Shared</Product>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Helpers" />
+      <Folder Include="Infrastructure" />
+    </ItemGroup>
+
 </Project>

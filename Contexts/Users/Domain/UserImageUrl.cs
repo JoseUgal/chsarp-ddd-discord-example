@@ -2,9 +2,9 @@ using Discord.Shared.Domain.ValueObjects;
 
 namespace Discord.Contexts.Users.Domain;
 
-public class UserId : Uuid
+public class UserImageUrl : ValueObject<string>
 {
-    public UserId(string value) : base(value)
+    public UserImageUrl(string value) : base(value)
     {
     }
 }
