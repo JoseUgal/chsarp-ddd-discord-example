@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: discord-develop
+      MYSQL_USER: codefastly
+      MYSQL_PASSWORD: P4ssw0rd@2023!
+    volumes:
+      - discord-develop-data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+
+volumes:
+  discord-develop-data:
