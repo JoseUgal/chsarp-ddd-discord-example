@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "i7nDEEFvaNx2fgwug8TmMOAfy3lGEqFiy7GoTQfcKZDwzHn+w9PqwGaUcYr5DcNvTJC0HkSf1j7idjGWCON41g==",
+  "dgSpecHash": "1C0kj+aRHrVIiZwds3WWPCfMzb8m0USrS8dkHagUgprku+NyBFOcu6OEm1lcWIK6kbFFquLP3cmu38cFk1UXdQ==",
   "success": true,
   "projectFilePath": "/Users/joseugal/Develop/Codefastly/Discord/Shared/Shared.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/joseugal/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
